@@ -1,0 +1,9 @@
+name: on_push
+on:
+  push:
+jobs:
+  helloworld:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo helloworld
+      run: echo helloworld
